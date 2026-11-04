@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display+SC&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: "PT Sans", sans-serif;
+}
+
+header img{
+    width: 25%;
+}
+
+header{
+    margin: 3em 4em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav{
+    display: flex;
+    gap: 32px;
+    flex-shrink: 0;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+.cover{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4em;
+    padding-right: 4em;
+   height: 70vh;
+}
+
+.cover-img{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+}
+
+.cover-img img{
+    padding-left: 15em;
+    height: 100%
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    flex-grow: 0;
+}
+
+.info .text nav{
+    display: flex;
+}
+
+.cover h1{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    line-height: 75px;
+    font-size: 5em;
+    margin: 0;
+}
+
+button{
+    background-color: black;
+    border-radius: 0;
+    color: white;
+    flex-grow: 0;
+    padding: 0 5px;
+    height: 60px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.text p{
+    font-family: 'PT Serif', serif;
+    font-size: 1.5em;
+}
+
+
+.areas h1 {
+    font-size: 3.6em;
+    font-weight: 400;
+    font-family: "PT Serif", serif;
+    padding: 0px 64px 40px 64px;
+}
+
+.areas .row {
+    background: rgba(233, 173, 200, 0.62);
+    display: flex;
+    gap: 48px;
+    padding: 80px 64px;
+    box-sizing: border-box;
+    height: 80%;
+}
+
+.areas .row .row-item img {
+    width: 100%;
+}
+
+.areas img{
+    height: 340px;
+}
+
+.areas {
+    padding: 136px 0;
+    height: 100vh;
+}
